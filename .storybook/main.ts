@@ -1,4 +1,4 @@
-import type { StorybookConfig } from '@storybook/angular';
+import type { StorybookConfig } from '@analogjs/storybook-angular';
 
 const config: StorybookConfig = {
   "stories": [
@@ -9,7 +9,7 @@ const config: StorybookConfig = {
     "@storybook/addon-docs"
   ],
   "framework": {
-    "name": "@storybook/angular",
+    "name": "@analogjs/storybook-angular",
     "options": {}
   }
 };
